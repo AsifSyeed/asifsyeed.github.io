@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #221D23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Ensure items are stacked vertically */
+}
+
+.title {
+    margin-bottom: 20px; /* Add some margin between title and description */
+}
+
+h1 {
+    color: #FFFAFF;
+    font-size: 40px;
+}
+
+h2 {
+    color: #FFFAFF;
+    font-size: 40px;
+}
+
+p {
+    color: #666A86;
+    font-size: 20px;
+}
+
+span {
+    color: #00F6ED;
+}
+
+.description {
+    margin-bottom: 100px;
+}
+
+.headImage {
+    margin-bottom: 30px;
+}
+
+.homeLinks {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+    margin-bottom: 50px; /* Add margin bottom as needed */
+}
+
+.homeLinks a {
+    margin: 0 50px; /* Set the spacing between links to 100px */
+    text-decoration: none; /* Remove underline from links */
+    color: #EDE6E3; /* Set link color */
+    font-size: 15px; /* Set link font size */
+}
+
+.social-links {
+    position: fixed;
+    bottom: 70px; /* Adjust as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Align items to their bottom */
+}
+
+.social-links a {
+    margin: 0 20px; /* Set the spacing between links */
+}
+
+.social-links img {
+    width: 24px; /* Set image width */
+    height: 24px; /* Set image height */
+}
+
+
+
